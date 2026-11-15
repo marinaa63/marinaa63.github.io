@@ -85,3 +85,58 @@ html {
 [id] {
     scroll-margin-top: 85px;
 }
+/* Dance Types Staircases */
+.dance-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.dance-list div {
+    border: 2px solid #e8b7cb;
+    border-radius: 10px;
+    padding: 8px 3px;
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Staircase Effect */
+.dance-list div:nth-child(2) {
+    transform: translateX(8px);
+}
+
+.dance-list div:nth-child(3) {
+    transform: translateX(16px);
+}
+
+.dance-list div:nth-child(4) {
+    transform: translateX(24px);
+}
+
+.dance-list div:nth-child(5) {
+    transform: translateX(32px);
+}
+
+.dance-list div:nth-child(6) {
+    transform: translateX(40px);
+}
+
+.dance-list div:nth-child(7) {
+    transform: translateX(48px);
+}
+
+.dance-list div:nth-child(8) {
+    transform: translateX(56px);
+}
+
+.dance-list div:nth-child(9) {
+    transform: translateX(64px);
+}
+
+.dance-list div:nth-child(10) {
+    transform: translateX(72px);
+}
