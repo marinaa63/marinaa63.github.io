@@ -1,11 +1,54 @@
-/* Custom CSS */
-..dance-types-img {
+/* General Style */
+body {
+    background-color: #fff9fc;
+    font-family: 'Georgia', serif;
+    color: #493b45;
+}
+
+/* Main Headings */
+h1, h2 {
+    color: #b76e8c;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.8;
+    font-size: 17px;
+}
+
+/* Horizontal Lines */
+hr {
+    border: 1px solid #e8b7cb;
+    opacity: 1;
+    margin: 30px 0;
+}
+
+/* Dance Types Image */
+.dance-types-img {
     width: 50%;
-    height: 100px;
+    height: 200px;
     object-fit: contain;
 }
+
+/* Gallery Images */
 .dance-img {
     width: 100%;
     height: 400px;
     object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* Image Hover Effect */
+.dance-img:hover {
+    transform: scale(1.03);
+    transition: 0.3s;
+}
+
+/* Section Spacing */
+.container {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
